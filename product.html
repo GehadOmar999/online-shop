@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products </title>
+    <link rel="stylesheet" href="./css/newpage.css" />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+
+      <div class="container">
+        <div class="navBar">
+          <div class="logo">
+            <img src="./images/logo.png" width="125px" alt="website logo" />
+          </div>
+          <nav>
+            <ul id="navlinks"> 
+              <li><a href="newPage.html">Home</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="productDetail.html">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Account </a></li>
+            </ul>
+          </nav>
+          <img
+            src="./images/cart.png"
+            alt="cart image"
+            class="cart-image"
+            width="30px"
+            height="30px"
+          />
+          <img
+            src="./images/menu.png"
+            class="menu-image"
+            width="30px"
+            height="30px"
+            onclick="menutoggle()"
+            
+          />
+        </div>
+      </div>
+      <div class="small-container"> <div class="row row-2">
+    <h2>All Porducts</h2>
+    <select>
+        <option value="">Default shorting</option>
+        <option value="">Short by sale</option>
+        <option value="">Short by rating</option>
+        <option value="">Short by price</option>
+    </select>
+   </div></div>
+  
+    <div class="small-container">
+    
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/product-1.jpg" alt="product-4" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p class="price">500.$</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-2.jpg" alt="product-4" />
+          <h4>HRX Sports Shoes</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p>200.$</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-3.jpg" alt="product-4" />
+          <h4>HRX Groy Trackponts</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p>200.$</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-4.jpg" alt="product-4" />
+          <h4>Blue Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p>500.$</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/product-1.jpg" alt="product-4" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p class="price">500.$</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-2.jpg" alt="product-4" />
+          <h4>HRX Sports Shoes</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p>200.$</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-3.jpg" alt="product-4" />
+          <h4>HRX Groy Trackponts</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p>200.$</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-4.jpg" alt="product-4" />
+          <h4>Blue Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p>500.$</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/product-5.jpg" alt="product-4" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p class="price">500.$</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-6.jpg" alt="product-4" />
+          <h4>HRX Sports Shoes</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p>200.$</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-7.jpg" alt="product-4" />
+          <h4>HRX Groy Trackponts</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p>200.$</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-8.jpg" alt="product-4" />
+          <h4>Blue Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p>500.$</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/product-9.jpg" alt="product-4" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p class="price">150.$</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-10.jpg" alt="product-4" />
+          <h4>HRX Sports Shoes</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p>100.$</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-11.jpg" alt="product-4" />
+          <h4>HRX Groy Trackponts</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p>150.$</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-12.jpg" alt="product-4" />
+          <h4>Blue Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-solid fa-star icon"></i>
+            <i class="fa-regular fa-star icon1"></i>
+          </div>
+          <p>100.$</p>
+        </div>
+    </div>  
+     <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+      </div>
+      </div>
+   
+  
+    <!-- Section Watch -->
+
+  
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+      <span>Download our App</span>
+      <p>Dawnload App for Android and ios mbile phone</p>
+        <img src="./images/app-store.png" alt="app store photo">
+        <img src="./images/play-store.png" alt="play-store photo">
+    </div>
+    <div class="footer-col-8">
+      <img src="./images/logo-white.png" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, natus.
+      </p>
+    </div>
+    <div class="footer-col-9">
+     <h3>Useful links</h3>
+     <ul>
+      <li>coupons</li>
+      <li>Blog post </li>
+      <li>Return policy</li>
+      <li>join Affiliate </li>
+     </ul>
+    </div>
+    <div class="footer-col-10">
+     <h3>Follow Us </h3>
+     <ul>
+      <li>facebook</li>
+      <li>instagrm </li>
+      <li>X</li>
+      <li>Youtube </li>
+     </ul>
+    </div>
+  </div>
+    
+  </div>
+</footer>
+  </body>
+  <script>
+    let links=document.getElementById("navlinks");
+links.style.maxHeight="0px";
+function menutoggle(){
+    if(links.style.maxHeight=="0px"){
+        links.style.maxHeight="250px"
+    }
+    else{
+        links.style.maxHeight="0px"
+    }
+}
+  </script>
+</html>
